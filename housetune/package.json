@@ -1,0 +1,38 @@
+{
+  "name": "housetune-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzy89456/housetune-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzy89456/housetune-be/issues"
+  },
+  "homepage": "https://github.com/buzy89456/housetune-be#readme",
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "ecpay_aio_nodejs": "^1.0.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.5.4"
+  }
+}
